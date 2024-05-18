@@ -56,18 +56,15 @@ $connect->close();
       <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <h1>Log In</h1>
         <div class="social-container">
-          <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-          <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
         </div>
-        <span>or use your account</span>
+        
         <input type="text" name="email_phone" placeholder="Email or Phone" value="<?php echo isset($_SESSION['email_phone']) ? $_SESSION['email_phone'] : ''; ?>" />
         <input type="password" name="password" placeholder="Password" />
         <?php if (isset($_GET['error'])) { ?>
           <span style="color: red;"><?php echo $_GET['error']; ?></span></>
         <?php } ?>
         <span style="color: red;"><?php echo $error; ?></span>
-        <a href="pass_recovery.php" class="forgotpass">Forgot your password?</a>
+       
         <button type="submit">Sign In</button>
       </form>
     </div>
@@ -79,7 +76,7 @@ $connect->close();
         </div>
         <div class="overlay-panel overlay-right">
           <h1>Welcome Back Admin!</h1>
-          <p>To keep connected with us please login</p>
+         
           <a href="../login/signup.php" id="login" class="ghost"></a>
         </div>
       </div>
