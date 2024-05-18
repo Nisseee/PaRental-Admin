@@ -2,7 +2,7 @@
 session_start();
 include "../components/db_conn.php";
 
-if (isset($_SESSION['id']) && isset($_SESSION['employee_id']) && $_SESSION['role'] == 'ADMIN') {
+if (isset($_SESSION['admin_id']) ) {
     
 ?>
 <!DOCTYPE html>
@@ -59,9 +59,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['employee_id']) && $_SESSION['role
                             </div>
                             <div class="col-sm-12 col-md-6 d-flex justify-content-center justify-content-md-end">
                             
-                            <div class="col col-auto m-1 p-2 ms-auto export_button">
-                                <button id="exportButton" class="btn btn-success m-0">Export to PDF</button>
-                            </div>
                             </div>
 
                             </div>

@@ -3,7 +3,7 @@ session_start();
 include "../components/db_conn.php";
 echo "Role: " . $_SESSION['role'];
 
-if (isset($_SESSION['id']) && isset($_SESSION['employee_id']) && $_SESSION['role'] == 'ADMIN') {
+if (isset($_SESSION['admin_id'])) {
     
 ?>
 <!DOCTYPE html>

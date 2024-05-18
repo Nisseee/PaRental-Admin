@@ -39,7 +39,7 @@ if (isset($_SESSION['admin_id'])  ) {
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class='breadcrumb-header'>
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="../admin/manage_product.php" class="text-success">Employee Management</a></li>
+                        <li class="breadcrumb-item"><a href="../admin/manage_product.php" class="text-success">Managae Product</a></li>
                         <li class="breadcrumb-item active" aria-current="page">View Product</li>
                     </ol>
                 </nav>

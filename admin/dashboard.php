@@ -248,11 +248,10 @@ if (isset($_SESSION['admin_id']) ) {
 
 <?php 
 }else{
+  
+     header("Location: ../index.php?error=1Only Admin can access ");
 
-  echo "Welcome, " . $_SESSION['position'];
-    //  header("Location: ../index.php?error=1Only Admin can access ");
-
-    //  exit();
+     exit();
 }
  ?>
 
