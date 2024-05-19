@@ -28,34 +28,6 @@
                            </li>
                         </ul>
                      </li>
-                     <!-- <li class="sidebar-item  has-sub">
-                        <a href="#" class='sidebar-link'>
-                        <i class="fa fa-chair text-success fa-2x"></i>
-                        <span>Products</span>
-                        </a>
-                        <ul class="submenu ">
-                           <li>
-                              <a href="../admin/add_employee.php">Add Product</a>
-                           </li>
-                           <li>
-                              <a href="../admin/manage_employee.php">Manage Product</a>
-                           </li>
-                        </ul>
-                     </li> -->
-                     <li class="sidebar-item  has-sub">
-                        <a href="#" class='sidebar-link'>
-                        <i class="fa fa-table text fa-2x" style="color:#21B0E8"></i>
-                        <span style="color:black;">Report</span>
-                        </a>
-                        <ul class="submenu ">
-                           <li>
-                              <a href="../admin/orders.php">Order Report</a>
-                           </li>
-                           <li>
-                              <a href="../admin/order_item_report.php">Order Items Report</a>
-                           </li>
-                        </ul>
-                     </li>
                      <li class="sidebar-item  has-sub">
                         <a href="#" class='sidebar-link'>
                         <i class="fa fa-chair text-success fa-2x"></i>
@@ -72,6 +44,24 @@
                      </li>
                      <li class="sidebar-item  has-sub">
                         <a href="#" class='sidebar-link'>
+                        <i class="fa fa-table text fa-2x" style="color:#21B0E8"></i>
+                        <span style="color:black;">Report</span>
+                        </a>
+                        <ul class="submenu ">
+                           <li>
+                              <a href="../admin/orders.php">Order Report</a>
+                           </li>
+                           <li>
+                              <a href="../admin/order_item_report.php">Order Items Report</a>
+                           </li>
+                           <li>
+                              <a href="../admin/export_report.php">Export Report</a>
+                           </li>
+                        </ul>
+                     </li>
+                     
+                     <li class="sidebar-item  has-sub">
+                        <a href="#" class='sidebar-link'>
                         
                         <i class="fa fa-users text fa-2x" style="color:#E88B20"></i>
                         <span style="color:black;">User Accounts</span>
@@ -81,7 +71,7 @@
                               <a href="../admin/add_employee.php">Add Product</a>
                            </li> -->
                            <li>
-                              <a href="../admin/manage_users.php">view Product</a>
+                              <a href="../admin/manage_users.php">View Product</a>
                            </li>
                         </ul>
                      </li>

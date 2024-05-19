@@ -1,0 +1,8 @@
+<br />
+<b>Warning</b>:  Undefined variable $connect in <b>C:\xampp\htdocs\PaRental-Admin\admin\export_report.php</b> on line <b>38</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\PaRental-Admin\admin\export_report.php:13
+Stack trace:
+#0 C:\xampp\htdocs\PaRental-Admin\admin\export_report.php(38): exportToCSV('cart', NULL)
+#1 {main}
+  thrown in <b>C:\xampp\htdocs\PaRental-Admin\admin\export_report.php</b> on line <b>13</b><br />

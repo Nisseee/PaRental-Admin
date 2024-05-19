@@ -11,7 +11,7 @@ if (isset($_SESSION['admin_id'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manage Designation</title>
+    <title>View Category</title>
 
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
 
@@ -37,13 +37,13 @@ if (isset($_SESSION['admin_id'])) {
                 <div class="page-title">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
-                            <h3>Manage Category</h3>
+                            <h3>View Category</h3>
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class='breadcrumb-header'>
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="dashboard.php" class="text-success">Dashboard</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Manage Category</li>
+                                    <li class="breadcrumb-item active" aria-current="page">View Category</li>
                                 </ol>
                             </nav>
                         </div>
