@@ -1,6 +1,6 @@
 <?php 
 
-include "../components/db_conn.php";
+include "../components/db_connect.php";
     $full_name = $_SESSION['name'];
 
   

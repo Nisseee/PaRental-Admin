@@ -1,0 +1,3 @@
+id,full_name,phone_number,address,email,password,image,username,gender,birthday,password_salt
+6,"Alvan Bernal",09468404678,"Legazpi City",alvanbernal@gmail.com,$2y$10$H.X9Z/X9jxmyHJmWWCvtA.5sGkFjQ.8L5GTMp66D2M37uCsdN4YZy,profile.jpg,@alvan,Male,2024-05-19,Snw9NwGcagCGRqQBiEdd1vOTYwHzAgdf7fQgrMFZ2ZA=
+7,"Amir Saberon",0912344567889,"Legazpi City",amir1@gmail.com,$2y$10$LECGwVe9kC8VBhChSoZ/1Os75JVOVPSBtnfbnTQErxQrD9M5T62jm,profile.jpg,@amir,Male,2024-05-20,CtvuSoMH5SnaxWh3t0+ph9rZ4aPhoIQ0SM2MWxu4+/Q=
